@@ -3,7 +3,7 @@ package org.hongryeo.ttanulim.core.dto;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import java.time.Instant;
 import java.util.List;
-import org.hongryeo.ttanulim.core.domain.Earthquake;
+import org.hongryeo.ttanulim.common.domain.Earthquake;
 
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class EarthquakeGeoJsonDto {

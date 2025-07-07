@@ -16,7 +16,7 @@ spring:
           url: jdbc:postgresql://localhost:5432/ttanulim
           username: postgres
           password: 1234
-    show-sql: true
+    show-sql: false
 
 server:
   port: 8080
