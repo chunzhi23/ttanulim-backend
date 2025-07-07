@@ -8,8 +8,8 @@ import lombok.NoArgsConstructor;
 import org.hongryeo.ttanulim.common.domain.Earthquake;
 
 @Getter
-@NoArgsConstructor(access = AccessLevel.PRIVATE)
 @AllArgsConstructor
+@NoArgsConstructor(access = AccessLevel.PRIVATE)
 public class EarthquakeResponse {
 
   private String id;
